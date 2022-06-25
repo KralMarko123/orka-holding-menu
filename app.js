@@ -62,8 +62,8 @@ const checkLanguageLinks = () => {
 
   if (pageIsInEnglish) {
     languageSwitchers.forEach((switcher) => {
-      switcher.style.backgroundImage = `url(./img/mk.png)`;
-      switcher.setAttribute("href", "./index.html");
+      switcher.style.backgroundImage = `url(../img/mk.png)`;
+      switcher.setAttribute("href", "../index.html");
     });
   } else {
     languageSwitchers.forEach((switcher) => {
@@ -241,15 +241,11 @@ const hideSubMenu = () => {
 const showMobileMenu = () => {
   addActive(locators.mobileNav);
   locators.siteContainer.classList.add("offset");
-  locators.hero.classList.add("offset");
-  locators.footer.classList.add("offset");
 };
 
 const hideMobileMenu = () => {
   removeActive(locators.mobileNav);
   locators.siteContainer.classList.remove("offset");
-  locators.hero.classList.remove("offset");
-  locators.footer.classList.remove("offset");
 };
 
 const toggleHamburger = () => {
@@ -286,7 +282,7 @@ const closeSubmenuMobile = (submenu) => {
 };
 
 const setSubMenu = (link) => {
-  switch (link.innerHTML.toLowerCase()) {
+  switch (link.innerHTML.toLowerCase().trim()) {
     case "за нас":
       setDropdownFromLink(
         0,
