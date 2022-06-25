@@ -1,4 +1,4 @@
-# Orka Holding Statis Website
+# Orka Holding Static Website
 
 > Simple static website using plain CSS with custom properties and some simple JS in need of desperate refactoring.
  
