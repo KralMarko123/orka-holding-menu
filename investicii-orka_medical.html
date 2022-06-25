@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--IMPORTS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dodaten.css" />
+    <script src="./app.js" defer></script>
+    <title>ОРКА медикал</title>
+  </head>
+  <body>
+
+<!-- Nav meni-->
+
+    <!--MOBILE NAV-->
+    <nav class="nav-mobile disabled smooth">
+      <ul class="level-one__list smooth">
+        <!-- <li class="list__item level-one__title">ПОЧЕТНА</li> -->
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ЗА НАС</span>
+          <ul class="level-two__list smooth">
+            <li  class="list__item"><a href="za_nas-aktivnosti.html">Активности</a></li>
+            <li class="list__item"><a href="za_nas-clenki_na_holdingot.html">Членки на холдингот</a></li>
+            <li class="list__item"><a href="za_nas-bord_i_menadzment.html">Борд и менаџмент</a></li>
+            <li class="list__item"><a href="za_nas-korporativno_upravuvanje.html">Корпоративно управување</a></li>
+            <li class="list__item"><a href="za_nas-misija_i_vizija.html">Мисија и визија</a></li>
+            <li class="list__item"><a href="za_nas-komunikacii.html">Комуникации и корпоративен идентитет</a></li>
+            <li class="list__item"><a href="za_nas-clenstvo.html">Членство во бизнис-организации</a></li>
+            <li class="list__item"><a href="za_nas-istorijat.html">Историјат</a></li>
+            <li class="list__item"><a href="za_nas-osnovaci.html">Основач и сопственик</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ИНВЕСТИЦИИ</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="investicii-orka_agrar.html">ОРКА Агра</a></li>
+            <li class="list__item"><a href="investicii-orka_medical.html">ОРКА Медикал</a></li>
+            <li class="list__item"><a href="investicii-orka_finansii.html">ОРКА Финансии</a></li>
+            <li class="list__item"><a href="investicii-orka_nedviznosti.html">ОРКА Недвижности</a></li>
+            <li class="list__item"><a href="investicii-orka_hotelierstvo.html">ОРКА Хотелиерство и угостителство</a></li>
+            <li class="list__item"><a href="investicii-orka_gradeznistvo.html">ОРКА Градежништво</a></li>
+            <li class="list__item"><a href="investicii-orka_marketing.html">ОРКА Маркетинг</a></li>
+            <li class="list__item"><a href="investicii-orka_tekstil.html">ОРКА Текстил</a></li>
+            <li class="list__item"><a href="investicii-orka_uslugi.html">ОРКА Услуги</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ОДРЖЛИВ РАЗВОЈ</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="razvoj-opstestvena_odgovornost.html">Општествена одговорност</a></li>
+            <li class="list__item"><a href="razvoj-fondacija.html">Фондација</a></li>
+            <li class="list__item"><a href="razvoj-zivotna_sredina.html">Животна средина</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">КАРИЕРА</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="kariera.html">Вработени и кариера</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ПРЕС ЦЕНТАР</span>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ЈАЗИК</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="./index.html">Македонски</a></li>
+            <li class="list__item"><a href="./en/index.html">Англиски</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+    <!--MAIN PAGE-->
+    <div class="site-content smooth">
+      <div class="container">
+        <!--NAVBAR-->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <a class="navbar-list__logo logo" href="index.html"><img src="./img/orka_logo.png" /></a>
+            <!-- <img class="navbar-list__logo logo" src="./img/orka_logo.png" /> -->
+            <div class="navbar-list__links">
+              <li class="navbar-list__link hoverable">ЗА НАС</li>
+              <li class="navbar-list__link hoverable">ИНВЕСТИЦИИ</li>
+              <li class="navbar-list__link hoverable">ОДРЖЛИВ РАЗВОЈ</li>
+              <li class="navbar-list__link hoverable">КАРИЕРА</li>
+              <li class="navbar-list__link hoverable">ПРЕС ЦЕНТАР</li>
+            </div>
+
+            <div class="hamburger disabled hoverable">
+              <span id="lineOne" class="hamburger-line"></span>
+              <span id="lineTwo" class="hamburger-line"></span>
+              <span id="lineThree" class="hamburger-line"></span>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <!--SUBMENU-->
+      <section class="submenu smooth container">
+        <div class="dropdowns-container">
+          <!--DROPDOWNS-->
+
+          <div id="za-nas-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="za-nas-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hidden"
+              ></i>
+              <h1 class="submenu__title">ЗА НАС</h1>
+              <i
+                id="za-nas-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-aktivnosti.html">Активности</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenki_na_holdingot.html">Членки на холдингот</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-bord_i_menadzment.html">Борд и менаџмент</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-korporativno_upravuvanje.html">Корпоративно управување</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-misija_i_vizija.html">Мисија и визија</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-komunikacii.html">Комуникации и корпоративен идентитет</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenstvo.html">Членство во бизнис-организации</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-istorijat.html">Историјат</a></li>                
+                <!-- <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Основачи</a></li> -->
+                <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Основач и сопственик</a></li>
+              </ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <div id="investicii-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="investicii-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">ИНВЕСТИЦИИ</h1>
+              <i
+                id="investicii-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_agrar.html">ОРКА Аграр</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_medical.html">ОРКА Медикал</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_finansii.html">ОРКА Финансии</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_nedviznosti.html">ОРКА Недвижности</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_hotelierstvo.html">ОРКА Хотелиерство и угостителство</a>
+                </li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_gradeznistvo.html">ОРКА Градежништво</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_marketing.html">ОРКА Маркетинг</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_tekstil.html">ОРКА Текстил</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_uslugi.html">ОРКА Услуги</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="razvoj-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="razvoj-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">ОДРЖЛИВ РАЗВОЈ</h1>
+              <i
+                id="razvoj-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">                
+                <li class="submenu__list__item hoverable"><a href="razvoj-opstestvena_odgovornost.html">Општествена одговорност</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-fondacija.html">Фондација</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-zivotna_sredina.html">Животна средина</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="kariera-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="kariera-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">КАРИЕРА</h1>
+              <i
+                id="kariera-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <div class="submenu-container__second">
+                <ul class="submenu__list">                
+                  <li class="submenu__list__item hoverable"><a href="kariera.html">Вработени и кариера</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="pres-centar-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="pres-centar-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">ПРЕС ЦЕНТАР</h1>
+              <i
+                id="pres-centar-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hidden hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <!--END OF DROPDOWNS-->
+        </div>
+      </section>
+    </div>
+
+    <!-- End of Nav meni-->
+
+
+    <div class="medical ppp container"></div>
+
+    <div class="container">
+      <h1 class="site_golemi">ОРКА медикал</h1>
+      <h3><a href="https://acibademsistina.mk" target="_blank">Клиничка болница „Аџибадем Систина“</a></h3>
+      <p>„Аџибадем Систина“ е првата приватна клиничка болница во земјава која нуди висококвалитетни медицински услуги во согласност со светските стандарди за здравствена заштита на пациентите.</p>
+      <p>Како бренд во здравствениот сектор во Македонија, „Систина“ е присутна од 2001 година, на почетокот преку Специјалната болница за гинекологија и акушерство „Мала Богородица – Систина“.</p>
+      <p>Моментите на успех, деновите во кои брендот „Систина“ добиваше сѐ поголеми димензии, ги прошири капацитетите, со сериозна инвестиција во здравството и прерасна во клиничка болница која на 7 април 2010 година ги отвори вратите за своите пациенти.</p>
+      <p>На 10 ноември 2010 година Клиничката болница „Систина“ забележа уште еден успех. Со потпишувањето договор за афилијација со најголемата групација на болници во југоисточна Европа „Аџибадем“, Клиничката болница „Систина“ создаде можност за размена на знаења и искуства и едукација со медицинскиот тим на турскиот здравствен гигант.</p>
+      <p>За само една година оваа успешна соработка прерасна во заедничко партнерство. Клиничката болница „Систина“ стана дел од Здравствената групација „Аџибадем“, и прва болница на овој лидер во здравството, надвор од границите на Турција. Една година подоцна „Аџибадем Систина“ стана дел од вториот најголем синџир болници, малезиската групација IHH. Влегувањето во оваа групација за нас претставува подигнување на стандардите во лекувањето и имплементација на сите најсовремени технологии и протоколи во лекувањето и поставување на Македонија на светската здравствена мапа.</p>
+      <p>Денеска Клиничката болница „Аџибадем Систина“ е најголемата и најмодерна приватна болница во регионот и е пример за успешна приказна во здравствениот сектор со медицински услуги според најсовремените протоколи во лекувањето на пациентите. Врвниот медицински тим користејќи современи методи и техники им стои на располагање на пациентите 24 часа во денот, 7 дена во неделата.</p>
+      <p>„Аџибадем Систина“ се простира на 24.000 квадратни метри затворен болнички простор распореден на 7 ката. Опремена со 11 најсовремени операциони сали и капацитет од 261 болнички кревет и 63 интензивни места (хирургија, кардиохирургија, кардиологија и неонтаологија).</p>
+      <p>Клиничката болница „Аџибадем Систина“ во 2016 година го доби златниот печат за квалитет и безбедност од JCI – најпрестижната организација за акредитација на болници во целиот свет. Во 2019 година болницата доби и реакредитација, уште еднаш потврдувајќи дека работи по светски стандарди. Златниот печат е доказ за квалитетот, кој e резултат на посветеноста на болницата во обезбедување безбедна и ефикасна услуга за своите пациенти. Акредитацијата од JCI претставува сигурност за секој пациент дека е безбеден и дека добива најдобра медицинска грижа.</p>
+      <p>Во „Аџибадем Систина“ работи реномиран тим од 150 врвни специјалисти, од кои 12 универзитетски професори, признати во регионот. Долгогодишното искуство на нашиот тим е потврда за врвна здравствена услуга на пациентите и нивните семејства. Подготвени се да ги решат и најсложените медицински состојби.</p>
+      <p>Благодарение на мултидисциплинарниот пристап, пациентите во „Аџибадем Систина“ добиваат високопрофесионална услуга, од дијагноза до третман и рехабилитација на сите болести.</p>
+      <p>„Аџибадем Систина“ е болница која ужива најголема доверба од пациентите. Тоа го докажуваат и бројките, кои секоја година растат. Во „Аџибадем Систина“ во изминатата деценија родени се 17.000 бебиња. Во нашата база регистрирани се над 550.000 пациенти, изведени се над 100.000 хируршки интервенции, реализирани се 700.000 прегледи. </p>
+      <p>Процентот на успех во лекувањето во „Аџибадем Систина“ се движи и до 99%. Тоа е резултат на максималната посветеност и грижа за нашите пациенти.</p>
+      <p>Технолошките можности на нашата болница овозможуваат прецизна дијагноза и третман на сите заболувања. Постојано сме фокусирана кон имплементирање на последните достигнувања во медицината.</p>
+      <p>Болничките соби се специјално дизајнирани, со што нудиме максимален комфор за време на лекувањето. Во пријатна атмосфера за пациентите и нивните потреби 24/7 се грижи тим од искусни и соодветно обучени медицински сестри кои се фокусирани на индивидуална нега на секој пациент. Интегрираната грижа од врвниот тим на специјалисти овозможува контрола на болката, за поголема удобност на пациентите во лекувањето.</p>
+      <p>Специјален тим секојдневно врши мониторинг на хигиената во болницата, преку микробиолошки тестови. Контролата на инфекција овозможува безбедно лекување и максимална заштита од интрахоспитални инфекции.</p>
+      <p>Со оглед на тоа дека „Аџибадем Систина“ има пациенти од целиот регион персоналот зборува и се разбира со пациентите на 4 јазици (македонски, албански, англиски и српски).</p>
+    
+      <div class="spacer"></div>
+      
+      <h3><a href="http://nefroplus.mk" target="_blank">ПЗУ „Нефроплус“</a></h3>
+      <p>Со цел подобрување на условите на центрите за дијализа во државата, во 2014 година е основана ПЗУ „Нефроплус“ која обезбедува здравствена грижа за повеќе од 630 пациенти, со повеќе од 83.000 дијализни третмани годишно. Преку своите дијализни центри, ПЗУ „Нефроплус“ е присутна во 10 градови, и тоа во Тетово, Гостивар, Дебар, Струга, Битола, Прилеп, Кавадарци и Велес, а за прв пат во Р Македонија инвестираше во отворање на уште два нови центри во Кичево и во Охрид.</p>
+      <p>ПЗУ „Нефроплус“ за првпат во Р Македонија го напушти методот на LOW-FLUX hemodijaliza и се имплементирани врвните најефикасни европски и светски модалитети на хемодијализа, како што се High Flux –хемодијализа и On Line-HDF (Хемодијафилтрација).</p>
+      <p>Во своите центри инвестираше во најсофистицирана опрема на глобално ниво за хемодијализа и тоа:</p>
+      <ul class="nabrojuvanje">
+        <li><span class="crveno m-levo">•</span>	За потребите на сите дијализни центри се набавени 156апарати модел „CORDIAX 5008 S“ од реномираниот производител Фрезениус Медикал Кер – Германија, кои претставуваат последна генерација на најсовремена и ефективна технологија при хронична бубрежна заместителна терапија, со можност за High FLUX хемодијализа и хемо-дијафилтрација. Со оваа технологија се овозможува максимална заштита на срцето и целиот васкуларен систем, која кај пациентите со бубрежни заболувања најчеста компликација и ризик-фактор на хемодијализа. Воедно, овозможува и максимално безбедносно својство за минимизирање на ризикот од надворешна загуба на крв преку венски пристап следење, што претставува траен придонес за супериорна безбедност на пациентите преку следење на најчувствителната точка на дијализа – венскиот пристап</li>
+        <li><span class="crveno m-levo">•</span>	Набавени се 80 столици и 79 кревети, исклучиво за намена – хемодијализа, кои имаат можност за приспособување според потребите и моменталната здравствена состојба на секој индивидуален пациент, со што се спречуваат несаканите ефекти и компликации кои можат да се појават во текот на дијализа и заземаат сè поголем дел од секојдневната рутина во давање на дијализниот третман. Самите кревети и столови нудат функционалност, удобност и сигурност, моторизирано прилагодување на столовите според потребата, континуирано приспособување на подлошката за нозе, местење на тастерот со леснотијата на позиционирање, копче за безбедност, можност за брза интервенција во критични ситуации.</li>
+        <li><span class="crveno m-levo">•</span>	По преземањето на центрите за дијализа ПЗУ Нефроплус инвестираше во нови и ги доработи постојните системи за обработка на вода (реверзни осмози), со што квалитетот на обработена вода изнесува 3-5 мС/цм.</li>
+      </ul>
+      <p>За третманот на пациентите за прв пат се користат биокомпатабилни дијализни мембрани со кардиопротективна заштита. Основни својства на овие филтри се: највисоко ниво на биокомпатабилност – Inline steam sterilization – што овозможува продукција на стерилни и pyrogenfree дијализери и обезбедува биокомпатабилност без хемиски резидуали; обезбедуваат максимална ретенција на ендотоксините – Helixone мембраната има висок на капацитет за супер ретенција на ендотоксини, со што се намалува ризикот за инфламација; висок перфоманс -High Flux дијализата има предности пред low-flux дијализата.</p>
+      <p>High-Flux дијализерите, исто така ги отстрануваат средните молекули како beta 2-microglobulin и воедно превенираат загуба на есенцијалните крвни компоненти како albumin. Пропустливоста на вода е многу повисока од Low-Flux дијализерите. Овие бенефити го намалуваат ризикот од CVD и помагаат да се подобрат long –term outcomes за нашите пациенти. High-Flux мембраните го подобруваат преживувањето кај пациентите на дијализа. Дијализа со High-flux мембраните ја подобруваат контролата на анемија кај пациентите на дијализа.</p>
+      <p>Од друга страна, бенефитите од дизајнот на FX classics мембраните се следните: ефикасно отстранување на мали и средни молекули, минимална загуба на есенцијалните крвни компоненти, оптимизирана хемодинамика и оптимизиран дијализат за повисоки вредности.</p>
+      <p><b>Хемодијализниот третман се работи исклучиво со ултра чиста вода.</b></p>
+      <p>ПЗУ „Нефроплус“ е најсофистицираниот центар за хемодијализа во земјата и регионот, кој применувајќи ги најсовремени стандарди и процедури кои се засновани на препораките на највисоките европски и светски водичи за добра клиничка пракса во хемодијализата (EBPG, K/DOQI, KDIGO), придонесува и се стреми кон развој и вложување во врвна здравствена услуга. Со помош на својот успешен модел на менаџмент, посветеност и стручност на специјализираниот тим професионалци, ПЗУ „Нефроплус“ на своите пациенти, покрај подобрување на здравствената состојба, им овозможува и продолжување и подобрување на квалитетот на животот.</p>
+      <p>Свесни за одговорноста кон пациентите, вработените и општеството, ПЗУ „Нефроплус“ за првпат во дијализата воспостави и имплементира политика на квалитет. За таа цел во сите свои центри за дијализа ги насочи сите свои напори кон здравјето и благосостојбата на пациентите. Со стекнување на сертификати за ISO 9001:2008, ISO 14001 и OHSAS 18001, ПЗУ „Нефроплус“ овозможи полесно вклопување кон дијализното работење во самата организација, со што се добива можност за ажурирање, примена и контрола кон правилно работење и максимална посветеност кон вработени за нивно континуирано усовршување.</p>
+      <p>Како резултат на зголемената ефикасност, правилно однесување кон заштита на вработениот и пациентот, како и воведување безбедна околина за работа во кои се вклучени и анализите за сите потенцијални ризици и навремена поддршка за нивно намалување, директно се зголемува општата продуктивност при работата, а со тоа и севкупниот квалитет на третманот.</p>
+    
+      <div class="spacer"></div>
+      
+      <h3>„Аџибадем Систина Медикал Компани“</h3>
+      <p>Компанијата нуди спектар на услуги кои имаат за цел да го зголемат задоволството на пациентите, да ја оптимизираат и да ја поддржи улогата на докторот и здравстениот систем во целост.  Компанијата реализира увоз и дистрибуција на лекови, медицински потрошни материјали и реагенси, пред се за потребите на клиничката болница Аџибадем Систина, но и за останати здравствени институции и веледрогерии.</p>
+      <p>Компанијата овозможува и реализација на специфични крвни анализи и испитувања во соработка со Аџибадем Лабмед од Турција.</p>
+
+      <div class="spacer"></div>
+
+      <h3>„Нефроплус Медикал“</h3>
+      <p>Примарна деловна цел на друштвото за трговија и услуги за медицинска опрема „Нефроплус Медикал“ е увоз на лекови и медицински потрошни материјали, за потребите ПЗУ „Нефроплус“.</p>
+      <p>„Нефроплус Медикал“ остварува успешна директна соработка со светски афирмирани брендови во медицината со единствена цел подобрување на квалитетот на услугата која ја нуди на своите сестрински компании.</p>
+      <p>Стремежот и мотивот да се биде чекор пред другите ќе се реализира со нов, грандиозен проект. „Нефроплус Медикал“ е во подготовка на проектот за изградба на врвен и најсовремен универзитет, како и универзитетска болница во регионот. Здравствената и високообразовна институција, сместена на 80.000 квадратни метри, ќе биде изградена и ќе работи според престижниот универзитет на „Аџибадем“ во Турција</p>
+      <p>Студентите на универзитетот, кој ќе претендира да стане најголем регионален приватен универзитет, ќе бидат предводени од врвни професори од Р Македонија и странство, а наставната програма ќе се изведува на англиски јазик.</p>
+      <p>Единствен сигурен влог во иднината и успехот се знаењето, посветеноста и образованието. Водејќи се според ова мото, големата инвестиција во образовниот систем има цел да го издигне квалитетот на македонскиот образовен систем, а со тоа да овозможи создавање нов стручен кадар во земјата.</p>
+      
+      <div class="spacer"></div>
+    </div>
+
+    <footer class="container futer">
+      <img src="./img/orka_logo-belo.png" alt="Орка лого бело за темна позадина">
+      <h4><span>Адреса: </span>Скупи 3а, 1000 Скопје</h4>
+      <h4><span>Тел: </span>+389 2 3099 509 &nbsp; &nbsp;<span>Факс: </span>+389 2 3099 699</h4>
+      <h4><span>Е-пошта: </span><a href="mailto:holding@orka.mk">holding@orka.mk</a></h4>
+    </footer>
+
+  </body>
+</html>

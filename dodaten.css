@@ -1,0 +1,341 @@
+.site_golemi {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: var(--accent-dark);
+}
+
+h2 {
+  color: #888;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.bez-gap {
+  gap: 0;
+}
+
+.clen {
+  grid-template-columns: 1.5fr 2.5fr;
+  margin-bottom: 2rem;
+}
+
+.slika img {
+  width: 100%;
+}
+
+.tekst {
+  border-top: 3px solid #ddd;
+}
+
+.pola {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tretina {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.petina {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.eden-dva-eden {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.col-gap-dva-rem {
+  grid-gap: 0 2rem;
+}
+
+.centar-centar {
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.pola img {
+  width: 70%;
+}
+
+.nabrojuvanje li {
+  padding-left: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.spacer {
+  height: 1rem;
+}
+
+.hero {
+  height: 75vh;
+  background-image: url("./img/home-hero.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -280px;
+}
+
+.ppp {
+  width: 95%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -280px;
+}
+
+.minus {
+  margin-top: -280px;
+}
+
+.misija_vizija {
+  background-image: url("./img/Misija_vizija.webp");
+}
+
+.corporate {
+  background-image: url("./img/corporate.webp");
+}
+
+.komunikacii {
+  background-image: url("./img/komunikacii.webp");
+}
+
+.istorijat {
+  background-image: url("./img/istorijat.webp");
+}
+
+.biznis {
+  background-image: url("./img/biznis.webp");
+}
+
+.aktivnosti {
+  background-image: url("./img/aktivnosti.webp");
+}
+
+.holding {
+  background-image: url("./img/holding.webp");
+}
+
+.agrar {
+  background-image: url("./img/agrar.webp");
+}
+
+.medical {
+  background-image: url("./img/medical.webp");
+  background-position: right center;
+}
+
+.finansii {
+  background-image: url("./img/finansii.webp");
+}
+
+.nedviznosti {
+  background-image: url("./img/nedviznosti.webp");
+}
+
+.energetika {
+  background-image: url("./img/energetika.webp");
+}
+
+.hotelierstvo {
+  background-image: url("./img/hotelierstvo.webp");
+}
+
+.gradeznistvo {
+  background-image: url("./img/gradeznistvo.webp");
+}
+
+.marketing {
+  background-image: url("./img/marketing.webp");
+}
+
+.tekstil {
+  background-image: url("./img/tekstil.webp");
+  background-position: center bottom;
+}
+
+.uslugi {
+  background-image: url("./img/uslugi.webp");
+}
+
+.odgovornost {
+  background-image: url("./img/odgovornost.webp");
+}
+
+.fondacija {
+  background-image: url("./img/fondacija.webp");
+}
+
+.zivotna {
+  background-image: url("./img/zivotna.webp");
+}
+
+.kariera {
+  background-image: url("./img/kariera.webp");
+}
+
+.clenki-na-holdingot {
+  height: 50vh;
+  background-image: url("img/Clenki_na_holdingot-desk.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clenki-na-holdingot-en {
+  height: 50vh;
+  background-image: url("img/Clenki_na_holdingot-en-desk.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.korporativno {
+  background-image: url("./img/korporativno.svg");
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.korporativno-en {
+  background-image: url("./img/korporativno-en.svg");
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  background-color: var(--accent-dark);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem 0.5rem 1rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer span {
+  color: red;
+}
+
+footer img {
+  width: 250px;
+  padding-bottom: 0.3rem;
+}
+
+footer h4 {
+  padding-bottom: 0.25rem;
+  margin: 0;
+}
+
+.crveno {
+  color: red !important;
+}
+
+@media (max-width: 1050px) {
+  .hero {
+    height: 85vh;
+    background-image: url("./img/home-hero.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -280px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .grid {
+    gap: 0;
+  }
+  .clen,
+  .pola,
+  .cetvrtina {
+    grid-template-columns: 1fr;
+  }
+
+  .tekst {
+    border-top: 0px;
+  }
+
+  .minus {
+    margin-top: 0px;
+  }
+
+  .clenki-na-holdingot {
+    height: 170vh;
+    background-image: url("img/Clenki_na_holdingot-mob.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .clenki-na-holdingot-en {
+    height: 170vh;
+    background-image: url("img/Clenki_na_holdingot-en-mob.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .hero,
+  .misija_vizija,
+  .corporate,
+  .komunikacii,
+  .istorijat,
+  .biznis,
+  .aktivnosti,
+  .holding,
+  .agrar,
+  .medical,
+  .finansii,
+  .nedviznosti,
+  .energetika,
+  .hotelierstvo,
+  .gradeznistvo,
+  .marketing,
+  .tekstil,
+  .uslugi,
+  .odgovornost,
+  .fondacija,
+  .zivotna,
+  .kariera {
+    width: 100%;
+    height: 60vh;
+    margin-top: 0px;
+  }
+  .hotelierstvo {
+    background-position: center right;
+  }
+
+  .misija_vizija {
+    background-position: center left;
+  }
+
+  .aktivnosti {
+    background-position: center left;
+  }
+
+  .misija_vizija {
+    background-position: 25% 50%;
+  }
+
+  .agrar {
+    background-position: 75% 50%;
+  }
+
+  .zivotna {
+    background-position: 25% 50%;
+  }
+
+  .kariera {
+    background-position: center right;
+  }
+}

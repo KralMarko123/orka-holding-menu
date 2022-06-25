@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--IMPORTS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../dodaten.css" />
+    <script src="./app.js" defer></script>
+    <title>ORKA Medical</title>
+  </head>
+  <body>
+
+<!-- Nav meni-->
+
+    <!--MOBILE NAV-->
+    <nav class="nav-mobile disabled smooth">
+      <ul class="level-one__list smooth">
+        <!-- <li class="list__item level-one__title">ПОЧЕТНА</li> -->
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ABOUT US</span>
+          <ul class="level-two__list smooth">
+            <li  class="list__item"><a href="za_nas-aktivnosti.html">Activities</a></li>
+            <li class="list__item"><a href="za_nas-clenki_na_holdingot.html">Member Companies of the Holding</a></li>
+            <li class="list__item"><a href="za_nas-bord_i_menadzment.html">Board and Management</a></li>
+            <li class="list__item"><a href="za_nas-korporativno_upravuvanje.html">Corporate Governance</a></li>
+            <li class="list__item"><a href="za_nas-misija_i_vizija.html">Mission and Vision</a></li>
+            <li class="list__item"><a href="za_nas-komunikacii.html">Communications and Corporate Identity</a></li>
+            <li class="list__item"><a href="za_nas-clenstvo.html">Membership in Business Organizations</a></li>
+            <li class="list__item"><a href="za_nas-istorijat.html">History</a></li>
+            <li class="list__item"><a href="za_nas-osnovaci.html">Founder and Owner</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">INVESTMENTS</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="investicii-orka_agrar.html">ORKA Agriculture</a></li>
+            <li class="list__item"><a href="investicii-orka_medical.html">ORKA Medical</a></li>
+            <li class="list__item"><a href="investicii-orka_finansii.html">ORKA Finance</a></li>
+            <li class="list__item"><a href="investicii-orka_nedviznosti.html">ORKA Real Estate</a></li>
+            <li class="list__item"><a href="investicii-orka_hotelierstvo.html">ORKA Hotel Industry and Catering Industry</a></li>
+            <li class="list__item"><a href="investicii-orka_gradeznistvo.html">ORKA Construction</a></li>
+            <li class="list__item"><a href="investicii-orka_marketing.html">ORKA Marketing</a></li>
+            <li class="list__item"><a href="investicii-orka_tekstil.html">ORKA Textile</a></li>
+            <li class="list__item"><a href="investicii-orka_uslugi.html">ORKA Services</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">SUSTAINABLE DEVELOPMENT</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="razvoj-opstestvena_odgovornost.html">Social Responsibility</a></li>
+            <li class="list__item"><a href="razvoj-fondacija.html">Foundation</a></li>
+            <li class="list__item"><a href="razvoj-zivotna_sredina.html">Enviroment</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">CAREER</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="kariera.html">Employees and Career</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">PRESS CENTER</span>
+        </li>
+        
+        <li class="list__item">
+          <span class="level-one__title mobile-link">LANGUAGE</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="../index.html">Macedonian</a></li>
+            <li class="list__item"><a href="./index.html">English</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!--MAIN PAGE-->
+    <div class="site-content smooth">
+      <div class="container">
+        <!--NAVBAR-->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <a class="navbar-list__logo logo" href="index.html"><img src="../img/orka_logo.png" style="max-width: 90%;"></a>
+            <!-- <img class="navbar-list__logo logo" src="./img/orka_logo.png" /> -->
+            <div class="navbar-list__links">
+              <li class="navbar-list__link hoverable">ABOUT US</li>
+              <li class="navbar-list__link hoverable">INVESTMENTS</li>
+              <li class="navbar-list__link hoverable">SUSTAINABLE DEVELOPMENT</li>
+              <li class="navbar-list__link hoverable">CAREER</li>
+              <li class="navbar-list__link hoverable">PRESS CENTER</li>
+              <!-- <li class="navbar-list__link hoverable">LANGUAGE</li> -->
+            </div>
+
+            <div class="hamburger disabled hoverable">
+              <span id="lineOne" class="hamburger-line"></span>
+              <span id="lineTwo" class="hamburger-line"></span>
+              <span id="lineThree" class="hamburger-line"></span>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <!--SUBMENU-->
+      <section class="submenu smooth container">
+        <div class="dropdowns-container">
+          <!--DROPDOWNS-->
+
+          <div id="za-nas-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="za-nas-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hidden"
+              ></i>
+              <h1 class="submenu__title">ABOUT US</h1>
+              <i
+                id="za-nas-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-aktivnosti.html">Activities</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenki_na_holdingot.html">Member Companies of the Holding</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-bord_i_menadzment.html">Board and Management</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-korporativno_upravuvanje.html">Corporate Governance</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-misija_i_vizija.html">Mission and Vision</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-komunikacii.html">Communications and Corporate Identity</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenstvo.html">Membership in Business Organizations</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-istorijat.html">History</a></li>
+                <!-- <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Основачи</a></li> -->
+                <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Founder and Owner</a></li>
+              </ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <div id="investicii-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="investicii-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">INVESTMENTS</h1>
+              <i
+                id="investicii-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_agrar.html">ORKA Agriculture</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_medical.html">ORKA Medical</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_finansii.html">ORKA Finance</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_nedviznosti.html">ORKA Real Estate</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_hotelierstvo.html">ORKA Hotel Industry and Catering Industry</a>
+                </li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_gradeznistvo.html">ORKA Construction</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_marketing.html">ORKA Marketing</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_tekstil.html">ORKA Textile</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_uslugi.html">ORKA Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="razvoj-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="razvoj-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">SUSTAINABLE DEVELOPMENT</h1>
+              <i
+                id="razvoj-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">                
+                <li class="submenu__list__item hoverable"><a href="razvoj-opstestvena_odgovornost.html">Social Responsibility</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-fondacija.html">Foundation</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-zivotna_sredina.html">Enviroment</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="kariera-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="kariera-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">Career</h1>
+              <i
+                id="kariera-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <div class="submenu-container__second">
+                <ul class="submenu__list">                
+                  <li class="submenu__list__item hoverable"><a href="kariera.html">Employees and Career</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="pres-centar-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="pres-centar-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">Press Center</h1>
+              <i
+                id="pres-centar-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hidden hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <!--END OF DROPDOWNS-->
+        </div>
+      </section>
+    </div>
+
+    <!-- End of Nav meni-->
+
+
+    <div class="medical ppp container"></div>
+
+    <div class="container">
+      <h1 class="site_golemi">ORKA Medical</h1>
+      <h3><a href="https://acibademsistina.mk" target="_blank">Acibadem Sistina Hospital</a></h3>
+      <p>Acibadem Sistina is the first private clinical hospital in the country to offer high quality medical services in accordance with world standards for patient healthcare.</p>
+      <p>As a brand in the healthcare sector in Macedonia, Sistina has been present since 2001, initially as “Mala Bogorodica – Sistina” Special Hospital for Gynecology and Obstetrics.</p>
+      <p>The moments of success, the days when Sistina brand was getting bigger, led to its capacity being expanded, with a significant investment in healthcare, and Sistina grew into a clinical hospital that opened its doors to its patients on April 7, 2010.</p>
+      <p>On November 10, 2010, Sistina Hospital achieved another success. With the signing of an affiliation agreement with the largest group of hospitals in Southeast Europe, “Acibadem”, Sistina Hospital created an opportunity to exchange knowledge, experience and education with the medical team of the Turkish healthcare giant.</p>
+      <p>In just one year, this successful partnership has grown into a joint venture. Sistina Hospital became part of the Acibadem Healthcare Group, and the healthcareleader’s first hospital outside of Turkey. A year later, Acibadem Sistina became part of the second largest chain of hospitals, the Malaysian group IHH. Entering this Group meant raising the standards in treatment and implementation of cutting-edge technologies and treatment protocols, as well as positioning Macedonia on the healthcare world map.</p>
+      <p>Today, Acibadem Sistina Hospital is the largest and most modern private hospital in the region and an example of a success story in the healthcare sector with medical services following modern patient treatment protocols. Using latest methods and techniques, its superior medical staffis available to patients 24 hours a day, 7 days a week.</p>
+      <p>Acibadem Sistina occupies an area of 24,000 square meters of indoor space spread over 7 floors. It is equipped with 11 state-of-the-art operating rooms and a capacity of 261 hospital beds and 63 intensive care units (Surgery, Cardiac Surgery, Cardiology and Neonatology).</p>
+      <p>In 2016, Acibadem Sistina Hospital was awarded the Gold Seal of Approval for quality and safety by JCI - the world’s most prestigious hospital accreditation organization. In 2019, the hospital was reaccredited, once again confirming that it operates in compliance with world standards. The Golden Seal is a testament to the quality that results from the Hospital’s commitment to providing a safe and effective service to its patients. JCI accreditation ensures that each patient is safe and receiving the best medical care.</p>
+      <p>Acibadem Sistina has a renowned team of 150 top specialists, including 12 university professors recognized in the region. The extensive experience of our team is a confirmation of the top healthcare services delivered to our patients and their families. They are ready to solve even the most difficult medical cases.</p>
+      <p>Thanks to its multidisciplinary approach, Acibadem Sistina patients receive a highly professional service, from diagnosis to treatment and rehabilitation of all diseases.</p>
+      <p>Acibadem Sistina is a hospital that enjoys the greatest trust of patients. This is also evidenced by the numbers, which are growing every year. In Acibadem Sistina, 17,000 babies were born in the past decade. Our database registers over 550,000 patients, over 100,000 surgeries, and 700,000 examinations.</p>
+      <p>Acibadem Sistina’s treatment success rate is up to 99%. It is the result of the highest degree of commitment and care for our patients.</p>
+      <p>The technological capabilities of our hospital provide accurate diagnosis and treatment of all diseases. We are constantly focused on implementing the latest advances in medicine.</p>
+      <p>Hospital rooms are specially designed, offering maximum comfort during treatment. A team of experienced and properly trained nurses who are focused on individual care of each patient takes care of patients and their needs in a pleasant atmosphere, 24/7. Integrated care by a team of top specialists allows for pain control and greater patient comfort during treatment.</p>
+      <p>A special team controls the hygiene of the hospital every day using microbiological tests. Infection control provides safe treatment and maximum protection against nosocomial infections.</p>
+      <p>Given that Acibadem Sistina has patients from all over the region, its staff speaks and communicates with patients in 4 languages (Macedonian, Albanian, English and Serbian).</p>
+    
+      <div class="spacer"></div>
+      
+      <h3><a href="http://nefroplus.mk" target="_blank">PHI Nefroplus</a></h3>
+      <p>In order to improve the conditions of dialysis centers in the country, in 2014 PHI Nefroplus was established, providing healthcare to more than 630 patients, with more than 83,000 dialysis treatments per year. With its dialysis centers, PHI Nefroplus is present in 10 cities, including Tetovo, Gostivar, Debar, Struga, Bitola, Prilep, Kavadarci and Veles, and has invested in the opening of two more centers in Kichevo and Ohrid for the first time in Macedonia.</p>
+      <p>PHI Nefroplus was the first institution in Macedonia that ceased using the method of Low-Flux hemodialysis and implemented the most effective European and world modalities of hemodialysis, such as High Flux hemodialysis and On Line-HDF (hemodiafiltration).</p>
+      <p>In its centers, it has invested in the most sophisticated hemodialysis equipment globally:</p>
+      <ul class="nabrojuvanje">
+        <li><span class="crveno m-levo">•</span>	For the needs of all dialysis centers, 156 Cordiax 5008 S devices were procured from the renowned manufacturer Fresenius Medical Care - Germany, which are the latest generation of modern and effective technology for chronic renal replacement therapy, with an option for High Flux hemodialysis and hemodiafiltration.This technology provides maximum protection of the heart and the entire vascular system, which are most commonly subjected to complications and risk factors for hemodialysisin patients with kidney disease. At the same time, it has a safety feature to minimize the risk of external blood loss through venous access monitoring, which is anenormous contribution providing superior safety to patients by monitoring the most sensitive point of dialysis – the venous access.</li>
+        <li><span class="crveno m-levo">•</span>	80 chairs and 79 beds were procured exclusively for the purpose of hemodialysis, with an option for their adjustment according to the needs and current health status of each patient, thus preventing side effects and complications that may occur during dialysis, which are part of the daily routine in giving dialysis treatment. The beds and chairs themselves offer functionality, comfort and safety, motorized adjustment of the chairs as needed, continuous adjustment of the footrest, adjustment of buttons with easy positioning, safety button, and option for quick intervention in critical situations.</li>
+        <li><span class="crveno m-levo">•</span>	After taking over the dialysis centers, PHI Nefroplus has invested in new and completed the existing water treatment systems (reverse osmosis), so that the quality of treated water is 3-5 mS/cm.</li>
+      </ul>
+      <p>For the treatment of patients, biocompatible dialysis membranes with cardioprotection have been used for the first time. The primary properties of these filters are: highest level of biocompatibility - Inline Steam Sterilization - which allows the production of sterile and pyrogen free dialyzers and provides biocompatibility without chemical residues; maximum endotoxin retention – the Helixone membrane has a high capacity for super retention of endotoxins, which reduces the risk of inflammation; high performance - High Flux dialysis has advantages over Low-Flux dialysis.</p>
+      <p>High-Flux dialyzers also remove medium molecules such as beta 2-microglobulin and prevent the loss of essential blood components such as albumin. Water permeability is much higher than in the Low-Flux dialysis machines. These benefits reduce the risk of CVD and help improve long-term outcomes in our patients. High-Flux membranes improve survival in dialysis patients. High-flux dialysis membranes improve anemia management in dialysis patients.</p>
+      <p>On the other hand, the design benefits of FX classics membranes are as follows: efficient removal of small and medium molecules, minimal loss of essential blood components, optimized hemodynamics, and optimized dialysate for higher values</p>
+      <p><b>Hemodialysis treatment is performed exclusively with ultra clean water.</b></p>
+      <p>PHI Nefroplus is the most sophisticated hemodialysis center in the country and the region, which, applying the most modern standards and procedures based on the recommendations of the highest European and world leaders of good clinical practice in hemodialysis (EBPG, K/DOQI, KDIGO), strives for development and investment in superior healthcare. With the help of its successful model of management, commitment and expertise of the specialized team of professionals, PHI Nefroplus, in addition to improving the health condition of its patients, enables them to have alonger life and a better quality of life.</p>
+      <p>Aware of its responsibility towards patients, employees and society, PHI Nefroplus has established and implemented Quality Policy for the first time in dialysis. To this end, in all its dialysis centers, it has focused all its efforts on the health and well-being of patients. With the acquisition of ISO 9001: 2008, ISO 14001 and OHSAS 18001 certificates, PHI Nefropplus enabled easier integration into the dialysis operations within the organization itself, providing the opportunity to update, apply and control proper operations and to maximally dedicate to its employees for their continuous improvement.</p>
+      <p>The increased efficiency, the proper practices towards employee and patient protection, as well as the introduction of a safe work environment, that includes analyses of all potential risks and timely support for their reduction, directly increases the general productivity at work, and thus the overall quality of treatment.</p>
+    
+      <div class="spacer"></div>
+      
+      <h3>Acibadem Sistina Medical Company</h3>
+      <p>The Company offers a range of services that aim to increase patient satisfaction, optimize and support the role of the doctor and the healthcare system in its entirety. The Company realizes the import and distribution of drugs, medical consumables and reagents, primarily for the needs of the Acibadem Sistina Hospital, but also for other health institutions and wholesalers.</p>
+      <p>The Company provides realization of specific blood tests and examinations as well, in cooperation with Acibadem Labmed from Turkey.</p>
+
+      <div class="spacer"></div>
+
+      <h3>Nefroplus Medical</h3>
+      <p>The primary business goal of Nefroplus Medical, the company for trade and services of medical equipment, is import of drugs and medical consumables for the needs of PHI Nefroplus.</p>
+      <p>Nefroplus Medical realizes successful direct cooperation with world-renowned brands in medicine with the sole purpose of improving the quality of service it offers to its sister companies.</p>
+      <p>Aspiration and motivation to be a step ahead of others will be realized with a new, grandiose project. Nefroplus Medical is preparing a project to build a state-of-the-art university, as well as a university hospital in the region. The 80.000-square-meter health and high education institution will be built and operated as per the prestigious Acibadem University in Turkey.</p>
+      <p>Students of the university aspiring to become the largest regional private university will be teached by leading professors from Macedonia and abroad, and the curriculum will be conducted in English.</p>
+      <p>The only sure investment in the future and success is knowledge, commitment and education. Guided by this motto, this large investment in the education system aims to raise the quality of the Macedonian education system, and thus enable the creation of new professional staff in the country.</p>
+      
+      <div class="spacer"></div>
+    </div>
+
+    <footer class="container futer">
+      <img src="../img/orka_logo-belo.png" alt="ORKA лого бело за темна позадина">
+      <h4><span>Address: </span>Skupi 3а, 1000 Skopje</h4>
+      <h4><span>Phone: </span>+389 2 3099 509 &nbsp; &nbsp;<span>Fax: </span>+389 2 3099 699</h4>
+      <h4><span>E-mail: </span><a href="mailto:holding@orka.mk">holding@orka.mk</a></h4>
+      <h4><a href="privatnost.html">Privacy Notice</a></h4>
+    </footer>
+
+  </body>
+</html>

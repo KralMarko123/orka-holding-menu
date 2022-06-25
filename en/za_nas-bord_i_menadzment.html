@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--IMPORTS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../dodaten.css" />
+    <script src="app.js" defer></script>
+    <title>Board and Management</title>
+  </head>
+  <body>
+
+<!-- Nav meni-->
+
+    <!--MOBILE NAV-->
+    <nav class="nav-mobile disabled smooth">
+      <ul class="level-one__list smooth">
+        <!-- <li class="list__item level-one__title">ПОЧЕТНА</li> -->
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ABOUT US</span>
+          <ul class="level-two__list smooth">
+            <li  class="list__item"><a href="za_nas-aktivnosti.html">Activities</a></li>
+            <li class="list__item"><a href="za_nas-clenki_na_holdingot.html">Member Companies of the Holding</a></li>
+            <li class="list__item"><a href="za_nas-bord_i_menadzment.html">Board and Management</a></li>
+            <li class="list__item"><a href="za_nas-korporativno_upravuvanje.html">Corporate Governance</a></li>
+            <li class="list__item"><a href="za_nas-misija_i_vizija.html">Mission and Vision</a></li>
+            <li class="list__item"><a href="za_nas-komunikacii.html">Communications and Corporate Identity</a></li>
+            <li class="list__item"><a href="za_nas-clenstvo.html">Membership in Business Organizations</a></li>
+            <li class="list__item"><a href="za_nas-istorijat.html">History</a></li>
+            <li class="list__item"><a href="za_nas-osnovaci.html">Founder and Owner</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">INVESTMENTS</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="investicii-orka_agrar.html">ORKA Agriculture</a></li>
+            <li class="list__item"><a href="investicii-orka_medical.html">ORKA Medical</a></li>
+            <li class="list__item"><a href="investicii-orka_finansii.html">ORKA Finance</a></li>
+            <li class="list__item"><a href="investicii-orka_nedviznosti.html">ORKA Real Estate</a></li>
+            <li class="list__item"><a href="investicii-orka_hotelierstvo.html">ORKA Hotel Industry and Catering Industry</a></li>
+            <li class="list__item"><a href="investicii-orka_gradeznistvo.html">ORKA Construction</a></li>
+            <li class="list__item"><a href="investicii-orka_marketing.html">ORKA Marketing</a></li>
+            <li class="list__item"><a href="investicii-orka_tekstil.html">ORKA Textile</a></li>
+            <li class="list__item"><a href="investicii-orka_uslugi.html">ORKA Services</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">SUSTAINABLE DEVELOPMENT</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="razvoj-opstestvena_odgovornost.html">Social Responsibility</a></li>
+            <li class="list__item"><a href="razvoj-fondacija.html">Foundation</a></li>
+            <li class="list__item"><a href="razvoj-zivotna_sredina.html">Enviroment</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">CAREER</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="kariera.html">Employees and Career</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">PRESS CENTER</span>
+        </li>
+        
+        <li class="list__item">
+          <span class="level-one__title mobile-link">LANGUAGE</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="../index.html">Macedonian</a></li>
+            <li class="list__item"><a href="./index.html">English</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!--MAIN PAGE-->
+    <div class="site-content smooth">
+      <div class="container">
+        <!--NAVBAR-->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <a class="navbar-list__logo logo" href="index.html"><img src="../img/orka_logo.png" style="max-width: 90%;"></a>
+            <!-- <img class="navbar-list__logo logo" src="./img/orka_logo.png" /> -->
+            <div class="navbar-list__links">
+              <li class="navbar-list__link hoverable">ABOUT US</li>
+              <li class="navbar-list__link hoverable">INVESTMENTS</li>
+              <li class="navbar-list__link hoverable">SUSTAINABLE DEVELOPMENT</li>
+              <li class="navbar-list__link hoverable">CAREER</li>
+              <li class="navbar-list__link hoverable">PRESS CENTER</li>
+              <!-- <li class="navbar-list__link hoverable">LANGUAGE</li> -->
+            </div>
+
+            <div class="hamburger disabled hoverable">
+              <span id="lineOne" class="hamburger-line"></span>
+              <span id="lineTwo" class="hamburger-line"></span>
+              <span id="lineThree" class="hamburger-line"></span>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <!--SUBMENU-->
+      <section class="submenu smooth container">
+        <div class="dropdowns-container">
+          <!--DROPDOWNS-->
+
+          <div id="za-nas-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="za-nas-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hidden"
+              ></i>
+              <h1 class="submenu__title">ABOUT US</h1>
+              <i
+                id="za-nas-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-aktivnosti.html">Activities</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenki_na_holdingot.html">Member Companies of the Holding</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-bord_i_menadzment.html">Board and Management</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-korporativno_upravuvanje.html">Corporate Governance</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-misija_i_vizija.html">Mission and Vision</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-komunikacii.html">Communications and Corporate Identity</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenstvo.html">Membership in Business Organizations</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-istorijat.html">History</a></li>
+                <!-- <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Основачи</a></li> -->
+                <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Founder and Owner</a></li>
+              </ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <div id="investicii-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="investicii-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">INVESTMENTS</h1>
+              <i
+                id="investicii-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_agrar.html">ORKA Agriculture</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_medical.html">ORKA Medical</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_finansii.html">ORKA Finance</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_nedviznosti.html">ORKA Real Estate</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_hotelierstvo.html">ORKA Hotel Industry and Catering Industry</a>
+                </li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_gradeznistvo.html">ORKA Construction</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_marketing.html">ORKA Marketing</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_tekstil.html">ORKA Textile</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_uslugi.html">ORKA Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="razvoj-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="razvoj-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">SUSTAINABLE DEVELOPMENT</h1>
+              <i
+                id="razvoj-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">                
+                <li class="submenu__list__item hoverable"><a href="razvoj-opstestvena_odgovornost.html">Social Responsibility</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-fondacija.html">Foundation</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-zivotna_sredina.html">Enviroment</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="kariera-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="kariera-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">Career</h1>
+              <i
+                id="kariera-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <div class="submenu-container__second">
+                <ul class="submenu__list">                
+                  <li class="submenu__list__item hoverable"><a href="kariera.html">Employees and Career</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="pres-centar-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="pres-centar-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">Press Center</h1>
+              <i
+                id="pres-centar-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hidden hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <!--END OF DROPDOWNS-->
+        </div>
+      </section>
+    </div>
+
+    <!-- End of Nav meni-->
+
+
+    <div class="container minus">
+      <h1 class="site_golemi">Board and Management</h1>
+      <div class="grid clen">
+        <div class="slika"><img src="../img/Bord/Liljana_Gajdovska.webp"></div>
+        <div class="tekst">
+          <h2>Liljana Gajdovska - Executive Director</h2> 
+          <p>Liljana Gajdoska was born in Skopje in 1974. In 1998 she graduated from the Faculty of Law at the Ss. Cyril and Methodius University in Skopje.</p>
+          <p>Her professional activities and successful 25-year working career started in 1997, right here, in the family business, i.e. at one of the then few companies of the Kamchev family.</p>
+          <p>Beginnings at the small trade company managed to awaken her sense of commitment, liability, honesty and fairness, values that the Kamchev management team knew to recognize and in 2013 appointed her as the director of one of the larger companies within the Holding - Kara AD Skopje Company that operated and owned real estate. Mutual respect and understanding have raised her to a managerial position at Panorama Residence Company in the period from 2013 to 2017; it is a company recognizable by its representative construction.</p>
+          <p>Due to the fact, but above all her expertise, great experience, creativity, as well as strong determination and perseverance in achieving and implementing the goals set, as well as her positive human values, indisputable results and managerial skills presented as the head of the legal sector at the Company, the family recognized her as a person worthy of the highest position in the Company, and in October 2021 appointed her with full confidence as the CEO of Orka Holding. </p>
+        </div>
+      </div>
+
+      <div class="grid clen">
+        <div class="slika"><img src="../img/Bord/Kristina-Kamceva.webp" alt=""></div>
+        <div class="tekst">
+          <h2>Kristina Kamcheva Stojcheska - Non-executive member of the Board of Directors</h2> 
+          <p>Kristina Kamcheva Stojcheska was born in Skopje in 1972. In 1994 she completed her studies in Foreign Trade and Marketing at the Faculty of Economics at the Ss. Cyril and Methodius University in Skopje; then at the University of Tourism and Management Skopje – the Faculty of Economics she obtained a master's degree in economics.Following the theoretical upgrade, she became actively involved in the family businesses of her father, Ilija Kamchev. Since then, she has been directly involved in the management of the most companies and projects within Orka Holding.</p>
+          <p>Her education continued with the Northwestern University Certifications - Organizational Leadership Specialization - Leadership through Design Innovation - High Performance Collaboration: Leadership, Teamwork and Negotiation - Leadership through Social Influence - Leadership Communication for Maximum Impact - Leadership throughMarketing - Initiating and Planning Projects.</p>
+          <p>Her work has been particularly recognized in the textile industry. Using her expertise, the domestic textile brand Kara has been created, practically as an example of a highly professional clothing line launched in the country. She has been directly involved in creating the production assortment, marketing and overall organization of the production process.</p>
+          <p>In the period from 2017 to 2019, she has been appointed to the position of General Manager of Mlekara Zdravje Radovo, where she has faced the challenge of restructuring the overall production process, rebranding products, organizing sales and marketing. Her engagement has had visible results in reducing the unproductive costs, raising the effectiveness of the production process and raising the brand's recognition in the domestic market. In addition, Kamcheva Stojcheska has been personally involved in launching the IBIS hotel brands as part of the AKOR Group in Macedonia. She was the initiator of introducing the developed world franchise, primarily by opening the IBIS Hotel Skopje City Center and then the IBIS Styles.</p>
+          <p>Moreover, she has an active role in Ilija Kamchev Foundation, established in honour of Ilija Kamchev, the founder of Orka Holding. As a person who adores art and humanity, she is a proud supporter of young people and established artists from Macedonia as well, being at the same time an organizer of many donor activities for marginalized categories of citizens.</p>
+        </div>
+      </div>
+
+      <div class="grid clen">
+        <div class="slika"><img src="../img/Bord/Vance-Mijalcev.jpg"></div>
+        <div class="tekst">
+          <h2>Vanche Mijalchev - Non-executive member of the Board of Directors</h2> 
+          <p>Vanche Mijalchev was born in Probistip in 1971. He graduated from the Faculty of Electrical Engineering, section Computer Engineering, Informatics and Automation at the Ss. Cyril and Methodius University in Skopje.</p>
+          <p>His professional experience started in 1994 when he worked as a professor in Informatics at the high school in Probishtip.</p>
+          <p>At the local elections in 1996 he was elected mayor, a position that enabled him to lead the municipality of Probishtip successfully until the end of his term in 2000.</p>
+          <p>In 1999 he became member of the management team of Rudnici Zletovo as Chairman of the Supervisory Board up to 2002, and in 2001 he was appointed by the Government of the Republic of North Macedonia as Executive Director of PE HS Zletovica; he successfully performed that position until 2003.</p>
+          <p>In the period from 2004 to 2010 he was more professionally focused in the field of engineering and informatics as a director of his own IT company, and then as a director of the private Institute for Information Research. Afterwards he was further engaged at the Academy for Judges and Public Prosecutors at the position of system administrator until 2013.</p>
+          <p>Since 2013 onwards he has completely dedicated to the management in the field of construction, initially at Beton Shtip GTD AD Shtip at the position of executive member of the Board of Directors, and then at other companies in the field of construction; currently he is the director at GTD Beton Shtip DOO Shtip.</p>
+          <p>Considering his many years of managerial experience and knowledge he has become member of the Orka Holding team where currently he is non-executive member of the Board of Directors.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="container futer">
+      <img src="../img/orka_logo-belo.png" alt="ORKA лого бело за темна позадина">
+      <h4><span>Address: </span>Skupi 3а, 1000 Skopje</h4>
+      <h4><span>Phone: </span>+389 2 3099 509 &nbsp; &nbsp;<span>Fax: </span>+389 2 3099 699</h4>
+      <h4><span>E-mail: </span><a href="mailto:holding@orka.mk">holding@orka.mk</a></h4>
+      <h4><a href="privatnost.html">Privacy Notice</a></h4>
+    </footer>
+
+  </body>
+</html>

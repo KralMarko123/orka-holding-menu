@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--IMPORTS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dodaten.css" />
+    <script src="./app.js" defer></script>
+    <title>Историјат</title>
+  </head>
+  <body>
+
+<!-- Nav meni-->
+
+    <!--MOBILE NAV-->
+    <nav class="nav-mobile disabled smooth">
+      <ul class="level-one__list smooth">
+        <!-- <li class="list__item level-one__title">ПОЧЕТНА</li> -->
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ЗА НАС</span>
+          <ul class="level-two__list smooth">
+            <li  class="list__item"><a href="za_nas-aktivnosti.html">Активности</a></li>
+            <li class="list__item"><a href="za_nas-clenki_na_holdingot.html">Членки на холдингот</a></li>
+            <li class="list__item"><a href="za_nas-bord_i_menadzment.html">Борд и менаџмент</a></li>
+            <li class="list__item"><a href="za_nas-korporativno_upravuvanje.html">Корпоративно управување</a></li>
+            <li class="list__item"><a href="za_nas-misija_i_vizija.html">Мисија и визија</a></li>
+            <li class="list__item"><a href="za_nas-komunikacii.html">Комуникации и корпоративен идентитет</a></li>
+            <li class="list__item"><a href="za_nas-clenstvo.html">Членство во бизнис-организации</a></li>
+            <li class="list__item"><a href="za_nas-istorijat.html">Историјат</a></li>
+            <li class="list__item"><a href="za_nas-osnovaci.html">Основач и сопственик</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ИНВЕСТИЦИИ</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="investicii-orka_agrar.html">ОРКА Агра</a></li>
+            <li class="list__item"><a href="investicii-orka_medical.html">ОРКА Медикал</a></li>
+            <li class="list__item"><a href="investicii-orka_finansii.html">ОРКА Финансии</a></li>
+            <li class="list__item"><a href="investicii-orka_nedviznosti.html">ОРКА Недвижности</a></li>
+            <li class="list__item"><a href="investicii-orka_hotelierstvo.html">ОРКА Хотелиерство и угостителство</a></li>
+            <li class="list__item"><a href="investicii-orka_gradeznistvo.html">ОРКА Градежништво</a></li>
+            <li class="list__item"><a href="investicii-orka_marketing.html">ОРКА Маркетинг</a></li>
+            <li class="list__item"><a href="investicii-orka_tekstil.html">ОРКА Текстил</a></li>
+            <li class="list__item"><a href="investicii-orka_uslugi.html">ОРКА Услуги</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ОДРЖЛИВ РАЗВОЈ</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="razvoj-opstestvena_odgovornost.html">Општествена одговорност</a></li>
+            <li class="list__item"><a href="razvoj-fondacija.html">Фондација</a></li>
+            <li class="list__item"><a href="razvoj-zivotna_sredina.html">Животна средина</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">КАРИЕРА</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="kariera.html">Вработени и кариера</a></li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ПРЕС ЦЕНТАР</span>
+        </li>
+
+        <li class="list__item">
+          <span class="level-one__title mobile-link">ЈАЗИК</span>
+          <ul class="level-two__list smooth">
+            <li class="list__item"><a href="./index.html">Македонски</a></li>
+            <li class="list__item"><a href="./en/index.html">Англиски</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+    <!--MAIN PAGE-->
+    <div class="site-content smooth">
+      <div class="container">
+        <!--NAVBAR-->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <a class="navbar-list__logo logo" href="index.html"><img src="./img/orka_logo.png" /></a>
+            <!-- <img class="navbar-list__logo logo" src="./img/orka_logo.png" /> -->
+            <div class="navbar-list__links">
+              <li class="navbar-list__link hoverable">ЗА НАС</li>
+              <li class="navbar-list__link hoverable">ИНВЕСТИЦИИ</li>
+              <li class="navbar-list__link hoverable">ОДРЖЛИВ РАЗВОЈ</li>
+              <li class="navbar-list__link hoverable">КАРИЕРА</li>
+              <li class="navbar-list__link hoverable">ПРЕС ЦЕНТАР</li>
+            </div>
+
+            <div class="hamburger disabled hoverable">
+              <span id="lineOne" class="hamburger-line"></span>
+              <span id="lineTwo" class="hamburger-line"></span>
+              <span id="lineThree" class="hamburger-line"></span>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <!--SUBMENU-->
+      <section class="submenu smooth container">
+        <div class="dropdowns-container">
+          <!--DROPDOWNS-->
+
+          <div id="za-nas-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="za-nas-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hidden"
+              ></i>
+              <h1 class="submenu__title">ЗА НАС</h1>
+              <i
+                id="za-nas-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-aktivnosti.html">Активности</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenki_na_holdingot.html">Членки на холдингот</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-bord_i_menadzment.html">Борд и менаџмент</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-korporativno_upravuvanje.html">Корпоративно управување</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-misija_i_vizija.html">Мисија и визија</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="za_nas-komunikacii.html">Комуникации и корпоративен идентитет</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-clenstvo.html">Членство во бизнис-организации</a></li>
+                <li class="submenu__list__item hoverable"><a href="za_nas-istorijat.html">Историјат</a></li>                
+                <!-- <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Основачи</a></li> -->
+                <li class="submenu__list__item hoverable"><a href="za_nas-osnovaci.html">Основач и сопственик</a></li>
+              </ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <div id="investicii-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="investicii-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">ИНВЕСТИЦИИ</h1>
+              <i
+                id="investicii-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">
+                
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_agrar.html">ОРКА Аграр</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_medical.html">ОРКА Медикал</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_finansii.html">ОРКА Финансии</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_nedviznosti.html">ОРКА Недвижности</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_hotelierstvo.html">ОРКА Хотелиерство и угостителство</a>
+                </li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_gradeznistvo.html">ОРКА Градежништво</a></li>
+              </ul>
+              <ul class="submenu__list">
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_marketing.html">ОРКА Маркетинг</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_tekstil.html">ОРКА Текстил</a></li>
+                <li class="submenu__list__item hoverable"><a href="investicii-orka_uslugi.html">ОРКА Услуги</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="razvoj-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="razvoj-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">ОДРЖЛИВ РАЗВОЈ</h1>
+              <i
+                id="razvoj-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list">                
+                <li class="submenu__list__item hoverable"><a href="razvoj-opstestvena_odgovornost.html">Општествена одговорност</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-fondacija.html">Фондација</a></li>
+                <li class="submenu__list__item hoverable"><a href="razvoj-zivotna_sredina.html">Животна средина</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="kariera-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="kariera-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">КАРИЕРА</h1>
+              <i
+                id="kariera-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <div class="submenu-container__second">
+                <ul class="submenu__list">                
+                  <li class="submenu__list__item hoverable"><a href="kariera.html">Вработени и кариера</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="pres-centar-dropdown" class="submenu-container smooth">
+            <div class="submenu-container__first">
+              <i
+                id="pres-centar-arrow__left"
+                class="fa fa-chevron-left submenu__arrow left__arrow hoverable"
+              ></i>
+              <h1 class="submenu__title">ПРЕС ЦЕНТАР</h1>
+              <i
+                id="pres-centar-arrow__right"
+                class="fa fa-chevron-right submenu__arrow right__arrow hidden hoverable"
+              ></i>
+            </div>
+            <div class="submenu-container__second">
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+              <ul class="submenu__list"></ul>
+            </div>
+          </div>
+
+          <!--END OF DROPDOWNS-->
+        </div>
+      </section>
+    </div>
+
+    <!-- End of Nav meni-->
+
+
+    <div class="istorijat ppp container"></div>
+
+    <div class="container">
+      <h1 class="site_golemi">Историјат</h1>
+      <p>30 јануари 1990 година е запишан во срцата на семејството Камчеви како датум кога Илија Камчев ја основа сопствената приватна компанија „Орка“. Почетокот на 1990 година значеше почеток на нова ера во македонската економија. Тој ден почна да живее една реалност - создавање на моќна компанија со сопствен капитал и вложен труд. На успесите на „Орка“ со кои сега се гордееме им претходат напорна работа, несебично вложување и вешто менаџирање, доверба и сигурност.</p>
+      <h2>ГОДИНИТЕ КОИ МИНАА...</h2>
+      <h3>1990-1999</h3>
+      <ul class="nabrojuvanje">
+        <li><span class="crveno m-levo">•</span>	Oсновање на компанијата „Орка“</li>
+        <li><span class="crveno m-levo">•</span>	Првата продавница на „Орка“</li>
+        <li><span class="crveno m-levo">•</span>	Првото производство со 30 вработени</li>
+        <li><span class="crveno m-levo">•</span>	Застапништво на Adidas, Silstar, Kettler, Rossignol, Stiga, Molten, Reebok и Bruggi</li>
+        <li><span class="crveno m-levo">•</span>	Отворање фришоп</li>
+        <li><span class="crveno m-levo">•</span>	Првата Адидас-продавница</li>
+        <li><span class="crveno m-levo">•</span>	Првата продавница за женска конфекција</li>
+        <li><span class="crveno m-levo">•</span>	Пастапништво на Евита Перони (Evita Peroni)</li>
+        <li><span class="crveno m-levo">•</span>	Заедничка инвестиција во производството  со англиската фирма Џерома (Jayroma) и отворање фабрика во Крива Паланка</li>
+        <li><span class="crveno m-levo">•</span>	Генерално застапништво на Fila и Wilson</li>
+        <li><span class="crveno m-levo">•</span>	Отворање на најголемиот спортски дуќан на Балканот - Орка галерија </li>
+        <li><span class="crveno m-levo">•</span>	Основање на Кошаркарскиот клуб „Орка”</li>
+        <li><span class="crveno m-levo">•</span>	Потпишан договор за генерален спонзор на македонската спортска репрезентација</li>
+        <li><span class="crveno m-levo">•</span>	Големо ширење на малопродажбата</li>
+      </ul>
+      <h3>2000-2009</h3>
+      <ul class="nabrojuvanje">
+        <li><span class="crveno m-levo">•</span>	Почнување со градба и отворање на објектот на „Орка“, кој има 14.000 м<up>2</up> и претставува најголема инвестиција во приватниот сектор</li>
+        <li><span class="crveno m-levo">•</span>	Направена е првата посериозна инвестиција во здравството со основање на Гинеколошка болница „Мала Богородица“</li>
+
+        <li> <span class="crveno m-levo">•</span> 
+          Основање на компании во соседните држави: Бугарија, Федерација Србија и Црна Гора, Хрватска</li>
+        <li> <span class="crveno m-levo">•</span> Генерално застапништво на Њу баланс (NEW BALANCE) за сите поранешни ју-држави, Романија и Бугарија</li>
+        <li> <span class="crveno m-levo">•</span>		Формирање на туристичката агенција „Орка травел“</li>
+        <li> <span class="crveno m-levo">•</span>		Застапништво за брендовите Дамат (Damat) и Твин (Tween)</li>
+        <li> <span class="crveno m-levo">•</span>		Награда на лојалноста на купувачите со формирање на „Орка клуб“</li>
+        <li> <span class="crveno m-levo">•</span>		Најголем акционер во спортскиот весник „Македонски спорт“</li>
+        <li> <span class="crveno m-levo">•</span>		„Орка“ отвора сопствени продавници во Софија и во Белград</li>
+        <li> <span class="crveno m-levo">•</span>		Отворање на производни капацитети во Делчево, Демир Хисар и Крушево со динамичен развој на производството</li>
+        <li> <span class="crveno m-levo">•</span>		Основање на брендот „Кара“, прв македонски бренд со извозна ориентација</li>
+        <li> <span class="crveno m-levo">•</span>		Отворени продавници „Кара“ во Косово, Србија и Црна Гора</li>
+        <li> <span class="crveno m-levo">•</span>		Отворање на производен капацитет за чевли во Куманово</li>
+        <li> <span class="crveno m-levo">•</span>		Отворање на првата продавница во Скопје за детска конфекција (KARA girls)</li>
+        <li> <span class="crveno m-levo">•</span>		Генерално застапништво на спортскиот бренд Лининг (Li-ning)</li>
+        <li> <span class="crveno m-levo">•</span>		Застапништво на брендот (Premaman) и отворање продавници</li>
+        <li> <span class="crveno m-levo">•</span>		Стандардизација на производството и продажбата на модна облека, Сертификат ISO 9001 : 2008</li>
+      </ul>
+
+      <h3>2010-2019</h3>
+      <ul class="nabrojuvanje">
+        <li><span class="crveno m-levo">•</span>	Отворање на првата клиничка болница „Систина“ во Р Македонија</li>
+        <li><span class="crveno m-levo">•</span>	Отворање на медицинска канцеларија на Косово - Приштина</li>
+        <li><span class="crveno m-levo">•</span>	КБ „Систина“ стана дел од Здравствената групација „Аџибадем“, и прва болница на овој лидер во здравството, надвор од границите на Турција</li>
+        <li><span class="crveno m-levo">•</span>	КБ „Аџибадем Систина“ стана дел од вториот најголем синџир болници, малезиската групација IHH</li>
+        <li><span class="crveno m-levo">•</span>	КБ „Аџибадем Систина“ го доби златниот печат за квалитет и безбедност од JCI - најпрестижната организација за акредитација на болници во целиот свет</li>
+        <li><span class="crveno m-levo">•</span>	Сопственик на медиумската групација Медиа принт Македонија</li>
+        <li><span class="crveno m-levo">•</span>	Отворање на првиот хотел „ibis Skopje City Center“ во Скопје, а потоа и „ibis Styles“ како дел од групацијата хотели ACCOR Group</li>
+        <li><span class="crveno m-levo">•</span>	Основање на ПЗУ „Нефроплус“, најсофистицираниот центар за хемодијализа во земјата и регионот</li>
+        <li><span class="crveno m-levo">•</span>	Фондацијата „Илија Камчев“ е активно вклучена во реализација на проекти кои придонесуваат кон развојот на медицината, уметноста и културата, хуманитарната дејност, спортот, зачувувањето на животната средина.</li>
+        <li><span class="crveno m-levo">•</span>	Акционер во „Стопанска банка а.д. Битола“</li>
+        <li><span class="crveno m-levo">•</span>	Акционер во ЗК „Пелагонија“ а.д. Битола, водечка компанија во рамките на агробизнисот во Р. Македонија</li>
+        <li><span class="crveno m-levo">•</span>	Акционер во млекарницата „Здравје Радово“ за производство на млеко и млечни производи</li>
+        <li><span class="crveno m-levo">•</span>	Акционер во „Жито полог“ а.д. - Тетово за производство на мелнички и пекарски производи</li>
+        <li><span class="crveno m-levo">•</span>	Акционер во градежното трговско друштво „Бетон Штип“</li>
+        
+      </ul>
+      <h3>2020 - ...</h3>
+      <ul class="nabrojuvanje">
+        <li><span class="crveno m-levo">•</span>	Сертификат за систем за управување ISO/IEC 27001 : 201</li>
+      </ul>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+
+    </div>
+
+    <footer class="container futer">
+      <img src="./img/orka_logo-belo.png" alt="Орка лого бело за темна позадина">
+      <h4><span>Адреса: </span>Скупи 3а, 1000 Скопје</h4>
+      <h4><span>Тел: </span>+389 2 3099 509 &nbsp; &nbsp;<span>Факс: </span>+389 2 3099 699</h4>
+      <h4><span>Е-пошта: </span><a href="mailto:holding@orka.mk">holding@orka.mk</a></h4>
+    </footer>
+
+  </body>
+</html>
