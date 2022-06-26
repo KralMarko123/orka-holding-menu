@@ -57,20 +57,27 @@ const checkIsArrow = (element) => {
 };
 
 const checkLanguageLinks = () => {
-  const pageIsInEnglish = window.location.href.includes("/en/");
+  const currentURL = window.location.href;
+  const pageIsInEnglish = currentURL.includes("/en/");
   const languageSwitchers = locators.languageSwitch;
 
-  if (pageIsInEnglish) {
-    languageSwitchers.forEach((switcher) => {
+  languageSwitchers.forEach((switcher) => {
+    if (pageIsInEnglish) {
+      const engToMkd = currentURL.replace("/en/", "/");
+
       switcher.style.backgroundImage = `url(../img/mk.png)`;
-      switcher.setAttribute("href", "../index.html");
-    });
-  } else {
-    languageSwitchers.forEach((switcher) => {
+      switcher.setAttribute("href", engToMkd);
+    } else {
+      const lastOccuringForwardSlashIndex = currentURL.lastIndexOf("/");
+      const mkdToEng =
+        currentURL.substring(0, lastOccuringForwardSlashIndex) +
+        "/en/" +
+        currentURL.substring(lastOccuringForwardSlashIndex + 1);
+
       switcher.style.backgroundImage = `url(./img/en.png)`;
-      switcher.setAttribute("href", "./en/index.html");
-    });
-  }
+      switcher.setAttribute("href", mkdToEng);
+    }
+  });
 };
 checkLanguageLinks();
 
